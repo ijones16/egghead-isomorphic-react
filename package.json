@@ -7,9 +7,12 @@
     "express": "^4.12.2",
     "react": "^0.13.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "watchify": "^2.4.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "watchify ./browser.js -o ./bundle.js"
   },
   "author": "Joe Maddalone",
   "license": "ISC"
