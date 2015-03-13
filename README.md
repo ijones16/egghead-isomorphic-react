@@ -1,1 +1,1 @@
-### egghead server side react lesson
+### egghead isomorphic react lesson
